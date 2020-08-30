@@ -4,7 +4,6 @@ Imports
 
 import numpy as np
 import lightgbm as lgbm
-import inspect
 
 from hyperopt import hp, tpe, fmin, Trials
 
@@ -16,8 +15,6 @@ from keras.models import Sequential
 from keras.layers import Dense
 
 from functools import partial
-
-from IPython.core.debugger import set_trace
 
 
 '''
